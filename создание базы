@@ -15,7 +15,7 @@ create table person(
                        removed_person varchar(100)
 );
 insert into person(name,age,email,phone_number,password,role,removed,created_at,updated_at,removed_at,created_person,updated_person,removed_person)
-VALUES('Иванов В.П.',1970,'test@gmail.com','+79272345768','$2a$10$jr7R0xbXt3xO793Ara38Uem86gsIuHFf1ZVqrBhXi95zUFfRRIPXi','ADMIN',false,'2023-03-22 11:31:26.000000',null,null,null,null,null);
+VALUES('Sergey',1980,'test@gmail.com','+79272345768','$2a$10$jr7R0xbXt3xO793Ara38Uem86gsIuHFf1ZVqrBhXi95zUFfRRIPXi','ADMIN',false,'2023-03-22 11:31:26.000000',null,null,null,null,null);
 insert into person(name,age,email,phone_number,password,role,removed,created_at,updated_at,removed_at,created_person,updated_person,removed_person)
 VALUES('Петров А.М.',1980,'test1@gmail.com','+79272555768','$2a$10$jr7R0xbXt3xO793Ara38Uem86gsIuHFf1ZVqrBhXi95zUFfRRIPXi','USER',false,'2023-03-22 11:31:26.000000',null,null,null,null,null);
 insert into person(name,age,email,phone_number,password,role,removed,created_at,updated_at,removed_at,created_person,updated_person,removed_person)
